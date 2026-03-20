@@ -28,7 +28,7 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#FFEE58",
+					"color": "#b2ff59",
 					"name": "Akzentfarbe 1",
 					"slug": "accent-1"
 				},
@@ -585,7 +585,7 @@
 			}
 		},
 		"color": {
-			"background": "#f9e749",
+			"background": "#f7b064",
 			"text": "var(--wp--preset--color--contrast)"
 		},
 		"elements": {
