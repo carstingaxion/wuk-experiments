@@ -92,6 +92,13 @@
         "resource": "url",
         "url": "https://raw.githubusercontent.com/carstingaxion/wordpress-export-to-server/main/wordpress-export-to-server.php"
       }
+    },
+    {
+        "step": "importWxr",
+        "file": {
+            "resource": "url",
+            "url": "https://raw.githubusercontent.com/carstingaxion/wuk-experiments/refs/heads/main/wp-content/wuk-experiments-main/export.xml"
+        }
     }
   ]
 }
