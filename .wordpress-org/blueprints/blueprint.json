@@ -7,7 +7,7 @@
   "features": {
     "networking": true
   },
-  "landingPage": "/wp-admin/",
+  "landingPage": "/",
   "steps": [
     {
       "step": "setSiteLanguage",
