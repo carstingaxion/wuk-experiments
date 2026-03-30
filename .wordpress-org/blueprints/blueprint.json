@@ -71,6 +71,16 @@
       }
     },
     {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "gatherpress"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
       "step": "installTheme",
       "themeData": {
         "resource": "git:directory",
