@@ -163,7 +163,7 @@
       "path": "/wordpress/wp-content/mu-plugins/wuk-experiments-config.php",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/carstingaxion/wuk-experiments-config/main/wp-content/mu-plugins/wuk-experiments-config.php"
+        "url": "https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/mu-plugins/wuk-experiments-config.php"
       }
     },
     {
