@@ -41,7 +41,7 @@ function wuk_experiments_register_post_type_args( array $args ) : array {
 
 
 add_filter( 'gptc_term_color_taxonomies', function ( array $taxonomies ): array {
-    $taxonomies[] = '_gatherpress_season';
+    $taxonomies = ['_gatherpress_season'];
     return $taxonomies;
 } );
 
