@@ -6,6 +6,15 @@
  * Author:      carstenbach
  */
 
+
+/************************************************************************************************************************** 
+ * 
+ * GatherPress core plugin Configuration
+ * 
+ * @see https://github.com/GatherPress/gatherpress
+ * 
+ **************************************************************************************************************************/
+
 add_filter(
 	sprintf(
 		'register_%s_post_type_args',
@@ -39,11 +48,28 @@ function wuk_experiments_register_post_type_args( array $args ) : array {
 
 
 
+/************************************************************************************************************************** 
+ * 
+ * GatherPress "Taxonomy Colors" plugin Configuration
+ * 
+ * @see https://github.com/carstingaxion/gatherpress-taxonomy-colors
+ * 
+ **************************************************************************************************************************/
+
 
 add_filter( 'gptc_term_color_taxonomies', function ( array $taxonomies ): array {
     $taxonomies = ['_gatherpress_season'];
     return $taxonomies;
 } );
+
+
+/************************************************************************************************************************** 
+ * 
+ * GatherPress "Productions" plugin Configuration
+ * 
+ * @see https://github.com/carstingaxion/gatherpress-productions
+ * 
+ **************************************************************************************************************************/
 
 
 
@@ -59,6 +85,16 @@ add_filter( 'gptc_term_color_taxonomies', function ( array $taxonomies ): array 
 
 // return $labels;
 // } );
+
+
+
+/************************************************************************************************************************** 
+ * 
+ * GatherPress "Relations" plugin Configuration
+ * 
+ * @see https://github.com/carstingaxion/gatherpress-relations
+ * 
+ **************************************************************************************************************************/
 
 
 
