@@ -179,15 +179,11 @@
     {
       "step": "installPlugin",
       "pluginData": {
-        "resource": "git:directory",
-        "url": "https://github.com/carstingaxion/gatherpress-groups",
-        "ref": "HEAD"
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-groups/releases/latest/download/gatherpress-groups.zip"
       },
       "options": {
-        "activate": true
-      },
-      "progress": {
-        "caption": "Installing plugin from GitHub: carstingaxion/gatherpress-groups"
+          "activate": true
       }
     },
     {
