@@ -209,6 +209,16 @@
     {
       "step": "installPlugin",
       "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/post-terms-block-unlinked/releases/latest/download/post-terms-block-unlinked.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "git:directory",
         "url": "https://github.com/carstingaxion/gatherpress-event-status",
         "ref": "HEAD"
