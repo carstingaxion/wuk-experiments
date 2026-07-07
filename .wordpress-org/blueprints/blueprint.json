@@ -199,6 +199,16 @@
     {
       "step": "installPlugin",
       "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-at-a-glance/releases/latest/download/gatherpress-at-a-glance.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "git:directory",
         "url": "https://github.com/carstingaxion/gatherpress-event-status",
         "ref": "HEAD"
