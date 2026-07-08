@@ -7,7 +7,7 @@
   "features": {
     "networking": true
   },
-  "landingPage": "/wp-admin/edit.php?post_type=gatherpress_event",
+  "landingPage": "/wp-admin",
   "steps": [
     {
       "step": "login"
@@ -46,10 +46,15 @@
       "meta": {
           "admin_color": "modern",
           "show_admin_bar_front": false,
+          "show_welcome_panel": false,
           "manageedit-gatherpress_eventcolumnshidden": [
             "taxonomy-gatherpress_topic",
             "taxonomy-_gatherpress_person",
             "date"
+          ],
+          "closedpostboxes_dashboard": [
+            "dashboard_site_health",
+            "dashboard_primary"
           ]
       },
       "userId": 1
