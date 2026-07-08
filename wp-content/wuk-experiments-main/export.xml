@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0" created="2026-07-08 14:37" -->
+	<!-- generator="WordPress/7.0" created="2026-07-08 15:21" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>WUK experiments</title>
 	<link>https://wuk-experiments.test</link>
 	<description>wuk xp</description>
-	<pubDate>Wed, 08 Jul 2026 14:37:14 +0000</pubDate>
+	<pubDate>Wed, 08 Jul 2026 15:21:42 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://wuk-experiments.test</wp:base_site_url>
@@ -214,30 +214,6 @@
 	<generator>https://wordpress.org/?v=7.0</generator>
 
 		<item>
-		<title><![CDATA[Navigation]]></title>
-		<link>https://wuk-experiments.test/2026/03/20/navigation/</link>
-		<pubDate>Fri, 20 Mar 2026 16:20:15 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/navigation/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2026-03-20 17:20:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-20 17:20:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[navigation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
 		<title><![CDATA[Startseite]]></title>
 		<link>https://wuk-experiments.test/</link>
 		<pubDate>Fri, 20 Mar 2026 16:29:39 +0000</pubDate>
@@ -245,16 +221,18 @@
 		<guid isPermaLink="false">https://wuk-experiments.test/?page_id=6</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Willkommen hier!</p>
+<p>Willkommen im Theater!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"date","inherit":false},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"align":"wide","className":"gatherpress-event-query"} -->
 <div class="wp-block-query alignwide gatherpress-event-query"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"20%"} -->
 <div class="wp-block-column" style="flex-basis:20%"><!-- wp:details -->
-<details class="wp-block-details"><summary>Filtern</summary><!-- wp:query-filter/taxonomy {"taxonomy":"_gatherpress_group","label":"Groups","displayType":"checkbox"} /-->
+<details class="wp-block-details"><summary>Nach Gruppen</summary><!-- wp:query-filter/taxonomy {"taxonomy":"_gatherpress_group","label":"groups","showLabel":false,"displayType":"radio"} /--></details>
+<!-- /wp:details -->
 
-<!-- wp:query-filter/taxonomy {"taxonomy":"_gatherpress_venue","label":"Venues","displayType":"radio"} /--></details>
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Nach Orten</summary><!-- wp:query-filter/taxonomy {"taxonomy":"_gatherpress_venue","label":"Venues","showLabel":false,"displayType":"radio"} /--></details>
 <!-- /wp:details --></div>
 <!-- /wp:column -->
 
@@ -272,7 +250,7 @@
 <!-- wp:post-terms {"term":"_gatherpress_season","className":"is-style-post-terms-1","style":{"elements":{"link":{"color":{"text":"var:preset|color|gatherpress-season-primary"}}}}} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:gatherpress/event-date {"displayType":"start","showTimezone":"no"} /-->
+<!-- wp:gatherpress/event-date {"displayType":"start","showTimezone":"no","style":{"typography":{"textAlign":"left"}}} /-->
 
 <!-- wp:media-text {"mediaType":"image","mediaWidth":25,"imageFill":false,"useFeaturedImage":true} -->
 <div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:25% auto"><figure class="wp-block-media-text__media"></figure><div class="wp-block-media-text__content"><!-- wp:post-title {"isLink":true,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"xx-large"} /-->
@@ -280,7 +258,7 @@
 <!-- wp:post-excerpt /-->
 
 <!-- wp:gatherpress/venue {"patternPicked":true,"layout":{"type":"constrained","justifyContent":"left"}} -->
-<!-- wp:group {"align":"wide","className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"align":"wide","className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group alignwide gatherpress--has-venue-address" style="margin-top:0;margin-bottom:0"><!-- wp:post-title {"level":3,"style":{"spacing":{"margin":{"bottom":"0"}}}} /-->
 
 <!-- wp:icon {"icon":"core/map-marker"} /-->
@@ -301,7 +279,7 @@
 
 <!-- wp:query-no-results {"className":"gatherpress-query-no-results"} -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no events."} -->
-<p>nix da</p>
+<p>nix weiter geplant </p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:column --></div>
@@ -311,8 +289,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-20 17:29:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 16:58:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 14:58:24]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -323,31 +301,6 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
-					<item>
-		<title><![CDATA[Custom Styles]]></title>
-		<link>https://wuk-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</link>
-		<pubDate>Fri, 20 Mar 2026 16:29:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</guid>
-		<description></description>
-		<content:encoded><![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date><![CDATA[2026-03-20 17:29:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-20 17:29:00]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-20 16:29:00]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[wp-global-styles-wuk-experiments]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="wuk-experiments"><![CDATA[wuk-experiments]]></category>
-						</item>
 					<item>
 		<title><![CDATA[Impressum]]></title>
 		<link>https://wuk-experiments.test/impressum/</link>
@@ -576,7 +529,7 @@
 <!-- /wp:group -->
 
 <!-- wp:gatherpress/venue {"patternPicked":true} -->
-<!-- wp:post-title {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
+<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
 
 <!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group gatherpress--has-venue-address" style="margin-top:0;margin-bottom:0"><!-- wp:gatherpress/icon {"icon":"location"} /-->
@@ -616,8 +569,8 @@
 		<wp:post_id>20</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:25:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:25:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:25:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:25:18]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 17:19:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 15:19:47]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[party]]></wp:post_name>
@@ -704,35 +657,13 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/venue/friesenstrasse-8/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:gatherpress/venue {"patternPicked":true} -->
-<!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group gatherpress--has-venue-address" style="margin-top:0;margin-bottom:0"><!-- wp:gatherpress/icon {"icon":"location"} /-->
-
-<!-- wp:gatherpress/venue-detail {"placeholder":"Venue address…","fieldType":"address"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-phone","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group gatherpress--has-venue-phone"><!-- wp:gatherpress/icon {"icon":"phone"} /-->
-
-<!-- wp:gatherpress/venue-detail {"placeholder":"Venue phone…","fieldType":"phone"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-website","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group gatherpress--has-venue-website"><!-- wp:gatherpress/icon {"icon":"admin-site-alt3"} /-->
-
-<!-- wp:gatherpress/venue-detail {"placeholder":"Venue website URL…","fieldType":"url"} /--></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:gatherpress/venue-map /-->
-<!-- /wp:gatherpress/venue -->]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>21</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:25:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:25:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:25:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:25:10]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 17:19:11]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 15:19:11]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[friesenstrasse-8]]></wp:post_name>
@@ -756,7 +687,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:10:"16x600x300";a:6:{s:3:"url";s:167:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-16-600-300.png";s:6:"url_2x";s:170:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-16-600-300@2x.png";s:4:"hash";s:32:"80bdeae07b05e769ede4a510115b82df";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -773,7 +704,7 @@
 <!-- wp:gatherpress/event-date {"showTimezone":"no"} /-->
 
 <!-- wp:gatherpress/venue {"patternPicked":true} -->
-<!-- wp:post-title {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
+<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
 
 <!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group gatherpress--has-venue-address" style="margin-top:0;margin-bottom:0"><!-- wp:gatherpress/icon {"icon":"location"} /-->
@@ -813,8 +744,8 @@
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:26:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:26:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:26:13]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:26:13]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 17:20:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 15:20:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[xmas]]></wp:post_name>
@@ -827,6 +758,7 @@
 										<category domain="gatherpress_eventstatus" nicename="scheduled"><![CDATA[Scheduled]]></category>
 		<category domain="_gatherpress_group" nicename="_ps"><![CDATA[Ensemble p+s]]></category>
 		<category domain="gatherpress_topic" nicename="holiday"><![CDATA[holiday]]></category>
+		<category domain="_gatherpress_season" nicename="_paradiese"><![CDATA[Paradiese]]></category>
 		<category domain="_gatherpress_venue" nicename="_wuk"><![CDATA[wuk]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
@@ -900,13 +832,15 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/venue/wuk/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:gatherpress/venue {"patternPicked":true} /-->]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Alles was es zu sagen gibt.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>25</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:25:58]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:25:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:25:58]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:25:58]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 17:18:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 15:18:54]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wuk]]></wp:post_name>
@@ -930,7 +864,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:10:"16x600x300";a:6:{s:3:"url";s:163:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-16-600-300.png";s:6:"url_2x";s:166:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-16-600-300@2x.png";s:4:"hash";s:32:"4f8dea6a7522d4f86241477d36761ce3";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -945,8 +879,8 @@
 		<wp:post_id>28</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 11:12:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 09:12:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 16:36:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 14:36:48]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 11:12:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 09:12:18]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[julia-raab]]></wp:post_name>
@@ -987,8 +921,8 @@
 		<wp:post_id>34</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 11:20:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 09:20:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 16:36:30]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 14:36:30]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 11:20:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 09:20:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[nicole-troeger]]></wp:post_name>
@@ -1019,8 +953,8 @@
 		<wp:post_id>36</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 12:18:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 10:18:50]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 16:33:26]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 14:33:26]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 12:18:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 10:18:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[oma]]></wp:post_name>
@@ -1069,10 +1003,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_datetime_end_gmt]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024-07-09 18:00:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -1125,8 +1055,8 @@
 		<wp:post_id>40</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 12:33:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 10:33:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 16:34:38]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 14:34:38]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 12:33:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 10:33:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[pension-troeger]]></wp:post_name>
@@ -1383,6 +1313,123 @@
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1000;s:6:"height";i:584;s:4:"file";s:61:"2026/07/juli_september_2023-20-min_beschnitten-1073020650.jpg";s:8:"filesize";i:222453;s:5:"sizes";a:3:{s:6:"medium";a:5:{s:4:"file";s:61:"juli_september_2023-20-min_beschnitten-1073020650-300x175.jpg";s:5:"width";i:300;s:6:"height";i:175;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:17519;}s:9:"thumbnail";a:5:{s:4:"file";s:61:"juli_september_2023-20-min_beschnitten-1073020650-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:8462;}s:12:"medium_large";a:5:{s:4:"file";s:61:"juli_september_2023-20-min_beschnitten-1073020650-768x449.jpg";s:5:"width";i:768;s:6:"height";i:449;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:90752;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
+					<item>
+		<title><![CDATA[Lasst das Probieren beginnen]]></title>
+		<link>https://wuk-experiments.test/2026/07/08/lasst-das-probieren-beginnen/</link>
+		<pubDate>Wed, 08 Jul 2026 15:02:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://wuk-experiments.test/?p=70</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>70</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-08 17:02:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-08 15:02:24]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 17:02:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 15:02:24]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[lasst-das-probieren-beginnen]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Unsere neue Technik]]></title>
+		<link>https://wuk-experiments.test/2026/07/08/unsere-neue-technik/</link>
+		<pubDate>Wed, 08 Jul 2026 15:02:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://wuk-experiments.test/?p=72</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>ist binär.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>72</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-08 17:02:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-08 15:02:57]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 17:02:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 15:02:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[unsere-neue-technik]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://wuk-experiments.test/2026/03/20/navigation/</link>
+		<pubDate>Fri, 20 Mar 2026 16:20:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-20 17:20:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-20 17:20:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>https://wuk-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</link>
+		<pubDate>Fri, 20 Mar 2026 16:29:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-20 17:29:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 17:20:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 15:20:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-wuk-experiments]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="wuk-experiments"><![CDATA[wuk-experiments]]></category>
+						</item>
 				</channel>
 </rss>
 	
