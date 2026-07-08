@@ -232,6 +232,16 @@
     {
       "step": "installPlugin",
       "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "view-transitions"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "git:directory",
         "url": "https://github.com/carstingaxion/gatherpress-event-status",
         "ref": "HEAD"
