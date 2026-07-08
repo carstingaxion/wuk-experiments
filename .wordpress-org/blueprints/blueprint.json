@@ -219,6 +219,16 @@
     {
       "step": "installPlugin",
       "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/humanmade/query-filter/releases/latest/download/query-filter.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "git:directory",
         "url": "https://github.com/carstingaxion/gatherpress-event-status",
         "ref": "HEAD"
