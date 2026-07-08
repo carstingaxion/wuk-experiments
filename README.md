@@ -92,7 +92,7 @@ https://github.com/GatherPress/gatherpress-demo-data
 [builder]: https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/.wordpress-org/blueprints/blueprint.json
 
 
-[export-to-github]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/.wordpress-org/blueprints/blueprint.json&gh-ensure-auth=yes&ghexport-repo-url=https://github.com/carstingaxion/wuk-experiments&ghexport-pr-action=create&ghexport-playground-root=/wordpress/wp-content&ghexport-repo-root=wp-content&ghexport-content-type=custom-paths&ghexport-path=/themes&ghexport-path=/uploads&ghexport-path=/wuk-experiments-main&ghexport-commit-message=Changes%20from%20Playground&ghexport-allow-include-zip=no
+[export-to-github]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/.wordpress-org/blueprints/blueprint.json&gh-ensure-auth=yes&ghexport-repo-url=https://github.com/carstingaxion/wuk-experiments&ghexport-pr-action=create&ghexport-playground-root=/wordpress/wp-content&ghexport-repo-root=wp-content&ghexport-content-type=custom-paths&ghexport-path=/mu-plugins&ghexport-path=/themes&ghexport-path=/uploads&ghexport-path=/wuk-experiments-main&ghexport-commit-message=Changes%20from%20Playground&ghexport-allow-include-zip=no
 
 
 [seamless]: https://playground.wordpress.net/?mode=seamless&url=/&blueprint-url=https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/.wordpress-org/blueprints/blueprint.json
