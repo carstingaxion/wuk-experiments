@@ -85,16 +85,16 @@
         "activate": true
       }
     },
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "url",
-				"url": "https://github.com/GatherPress/gatherpress/releases/download/0.34.0-beta.2/gatherpress.0.34.0-beta.2.zip"
-			},
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "gatherpress"
+      },
       "options": {
-          "activate": true
+        "activate": true
       }
-		},
+    },
     {
       "step": "installPlugin",
       "pluginData": {
@@ -228,10 +228,8 @@
     {
       "step": "installPlugin",
       "pluginData": {
-          "resource": "git:directory",
-          "url": "https://github.com/humanmade/query-filter",
-          "ref": "v0.3.1",
-          "refType": "tag"
+          "resource": "url",
+          "url": "https://github.com/humanmade/query-filter/releases/download/v0.4.0/query-filter-v0.4.0.zip"
         },
       "options": {
           "activate": true,
